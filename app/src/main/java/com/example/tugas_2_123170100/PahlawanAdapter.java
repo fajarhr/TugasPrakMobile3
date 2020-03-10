@@ -1,6 +1,9 @@
 package com.example.tugas_2_123170100;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> 8ffb6725f9204d194ed56355e2347b2a2c004c82
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,23 +13,35 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+<<<<<<< HEAD
 import com.example.tugas_2_123170100.PahlawanModel;
 import com.example.tugas_2_123170100.R;
+=======
+>>>>>>> 8ffb6725f9204d194ed56355e2347b2a2c004c82
 
 import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+<<<<<<< HEAD
 import static androidx.core.content.ContextCompat.startActivity;
 
+=======
+>>>>>>> 8ffb6725f9204d194ed56355e2347b2a2c004c82
 public class PahlawanAdapter extends RecyclerView.Adapter<PahlawanAdapter.ListViewHolder> {
 
     private ArrayList<PahlawanModel> listHero;
     private OnItemClickCallback onItemClickCallback;
 
+<<<<<<< HEAD
     public PahlawanAdapter(ArrayList<PahlawanModel> list) {
         this.listHero = list;
+=======
+    public PahlawanAdapter(ArrayList<PahlawanModel> pahlawan) {
+            this.listHero = pahlawan ;
+
+>>>>>>> 8ffb6725f9204d194ed56355e2347b2a2c004c82
     }
 
     public ArrayList<PahlawanModel> getListHero() {
