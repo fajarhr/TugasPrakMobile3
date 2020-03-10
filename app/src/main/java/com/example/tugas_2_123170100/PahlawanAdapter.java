@@ -1,6 +1,5 @@
 package com.example.tugas_2_123170100;
 
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,23 +9,20 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
-import com.example.tugas_2_123170100.PahlawanModel;
-import com.example.tugas_2_123170100.R;
 
 import java.util.ArrayList;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import static androidx.core.content.ContextCompat.startActivity;
-
 public class PahlawanAdapter extends RecyclerView.Adapter<PahlawanAdapter.ListViewHolder> {
 
     private ArrayList<PahlawanModel> listHero;
     private OnItemClickCallback onItemClickCallback;
 
-    public PahlawanAdapter(ArrayList<PahlawanModel> list) {
-        this.listHero = list;
+    public PahlawanAdapter(ArrayList<PahlawanModel> pahlawan) {
+            this.listHero = pahlawan ;
+
     }
 
     public ArrayList<PahlawanModel> getListHero() {
